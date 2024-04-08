@@ -683,7 +683,7 @@ s3_client.download_file('my-bucket', 'object-key', '/path/to/local/file')
 s3_client.delete_object(Bucket='my-bucket', Key='object-key')
 ```
 
-** Async API** is an API (Application Programming Interface) that allows the calling program to continue executing while the API processes the request.
+**Async API** is an API (Application Programming Interface) that allows the calling program to continue executing while the API processes the request.
 
 ```python
 import asyncio
@@ -1408,7 +1408,9 @@ throughput = number_of_tasks / elapsed_time
 Consistency patterns:
 
 **Weak consistency**: data may be inconsistent for a short period of time.
+
 **Eventual consistency**: data will eventually become consistent, but there may be a delay.
+
 **Strong consistency**: data is always consistent.
 
 Availability patterns:
